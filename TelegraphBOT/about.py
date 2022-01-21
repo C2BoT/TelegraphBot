@@ -13,3 +13,4 @@ async def about(bot, msg):
         reply_markup=InlineKeyboardMarkup(Data.home_buttons),
         reply_to_message_id=msg.message_id
     )
+
