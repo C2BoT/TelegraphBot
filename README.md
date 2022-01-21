@@ -30,7 +30,7 @@ Telegram bot to upload media to telegra.ph
 
 3. Enter the directory
    ```markdown
-   cd TelegraphBot
+   cd TelegraphBOT
    ```
 5. Run the file
    ```markdown
