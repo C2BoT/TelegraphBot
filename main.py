@@ -11,16 +11,16 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 
 app = Client(
-    "Telegraph-Bot",
+    "BOtTelegraphBO7BoT",
     api_id=Config.API_ID,
     api_hash=Config.API_HASH,
     bot_token=Config.BOT_TOKEN,
-    plugins=dict(root="TelegraphBot"),
+    plugins=dict(root="BOtTelegraphBO7BoT"),
 )
 
 
 # Run Bot
-if __name__ == "__main__":
+if __name__ == "__master__":
     try:
         app.start()
     except (ApiIdInvalid, ApiIdPublishedFlood):
