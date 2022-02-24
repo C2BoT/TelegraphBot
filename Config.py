@@ -1,7 +1,5 @@
 import os
 
-class Config(object):
-
 
 ENVIRONMENT = bool(os.environ.get('ENVIRONMENT', False))
 
