@@ -4,10 +4,8 @@ from pyrogram.types import InlineKeyboardButton
 class Data:
     # Start Message
     START = """
-𝑯𝑬𝒀 {}
-
 [ ](https://telegra.ph/file/5d44fc68de9464aca53b3.mp4)
-
+𝑯𝑬𝒀 {}
 𝑾𝑬𝑳𝑪𝑶𝑴𝑬 𝑻𝑶 {}
 
 𝑰 𝑪𝑨𝑵 𝑼𝑷𝑳𝑶𝑨𝑫 𝑴𝑬𝑫𝑰𝑨 𝑻𝑶 telegra.ph 𝑨𝑵𝑫 𝑮𝑰𝑽𝑬 𝒀𝑶𝑼 𝑩𝑨𝑪𝑲 𝑻𝑯𝑬 𝑳𝑰𝑵𝑲 𝑾𝑰𝑻𝑯 𝑬𝑨𝑺𝑬 𝑻𝑬𝒀 𝑺𝑬𝑵𝑫𝑰𝑵𝑮 𝑴𝑼𝑳𝑻𝑰𝑷𝑳𝑬 𝑴𝑬𝑫𝑰𝑨 𝑨𝑵𝑫 𝑰𝑻 𝑺𝑻𝑰𝑳𝑳 𝑾𝑶𝑵'𝑻 𝑺𝑻𝑶𝑷 𝑴𝑬
@@ -15,7 +13,6 @@ class Data:
 
 𝑻𝑶 𝑺𝑬𝑬 𝑺𝑼𝑷𝑷𝑶𝑹𝑻𝑬𝑫 𝑴𝑬𝑫𝑰𝑨 𝑻𝒀𝑷𝑬𝑺 𝑻𝑨𝑷 𝑻𝑯𝑬 𝑹𝑬𝑳𝑨𝑻𝑬𝑫 𝑩𝑼𝑻𝑻𝑶𝑵 𝑩𝑬𝑳𝑶𝑾
 𝑼𝑺𝑬 𝑻𝑯𝑬 𝑶𝑻𝑯𝑬𝑹 𝑩𝑼𝑻𝑹𝑶𝑵𝑺 𝑻𝑶 𝑲𝑵𝑶𝑾 𝑴𝑶𝑹𝑬 𝑨𝑩𝑶𝑼𝑻 𝑴𝑬 𝑨𝑵𝑫 𝑴𝒀 𝑼𝑺𝑨𝑮𝑬
-
     """
 
     # Help Message
