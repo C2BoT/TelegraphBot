@@ -1,7 +1,7 @@
 {
   "name": "Telegraph Bot",
   "description": "Telegram bot to upload media to Telegra.ph",
-  "logo": "https://telegra.ph/file/5673e751647bd504e1af6.jpg",
+  "logo": "https://telegra.ph/file/365d147816bf1295226b9.jpg",
   "keywords": [
     "telegram",
     "bot",
@@ -17,7 +17,7 @@
       "size": "free"
     }
   },
-  "repository": "https://github.com/Bottom-T/TelegraphBOT",
+  "repository": "https://github.com/Bottom-T/TelegraphBot",
   "addons": [
     {
        "options": {
