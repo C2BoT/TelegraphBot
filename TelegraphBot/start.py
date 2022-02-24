@@ -16,9 +16,9 @@ async def start(bot, msg):
 	)
 
 @Client.on_message(filters.private & filters.command(["id"]))
-async def start(bot, update):
-    text = START_TEXT.format(update.from_user.id)
-    reply_markup = START_BUTTONS
+async def id(bot, update):
+    text = STARTT_TEXT.format(update.from_user.id)
+    reply_markup = STARTT_BUTTONS
     await update.reply_text(
         text=text,
         disable_web_page_preview=True,
@@ -27,7 +27,7 @@ async def start(bot, update):
     )
 
 
-START_TEXT = """
+STARTT_TEXT = """
 = = = = = = = = = = = = = = = =
 ⌯ 𝚄𝚂𝙴𝚁 𝙸𝙳 💛💫 {}
 
@@ -36,7 +36,7 @@ START_TEXT = """
 """
 
 
-START_BUTTONS = InlineKeyboardMarkup(
+STARTT_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('💛💫 𝙹𝙾𝙸𝙽 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 💛💫', url='https://telegram.me/us7a5')
         ]]
