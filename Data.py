@@ -77,7 +77,7 @@ class Data:
     # Home Button
     home_buttons = [
         [InlineKeyboardButton("🖤🥀 𝑵𝑬𝑾 𝒀𝑶𝑹𝑲 🖤🥀", url="https://t.me/us7a5")],
-        [InlineKeyboardButton("💜🎩 𝑼𝑺𝑬𝑹 𝑰𝑫 💜🎩", callback_data="startt_text")],
+        [InlineKeyboardButton("💜🎩 𝑼𝑺𝑬𝑹 𝑰𝑫 💜🎩", callback_data="STARTT_TEXT")],
         [InlineKeyboardButton("💛💫 𝑺𝑼𝑷𝑷𝑶𝑹𝑻𝑬𝑫 𝑴𝑬𝑫𝑰𝑨 𝑻𝒀𝑷𝑬𝑺 💛💫", callback_data="supported_media_types")],
         [InlineKeyboardButton("𝑪𝑳𝑶𝑺𝑬 🔐", callback_data="close")],
         [InlineKeyboardButton(text="🏠 𝑹𝑬𝑻𝑼𝑹𝑵 𝑯𝑶𝑴𝑬 🏠", callback_data="home")],
