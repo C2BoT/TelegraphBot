@@ -9,6 +9,6 @@ async def id(bot, msg):
     await bot.send_message(
         msg.chat.id,
         Data.STARTT,
-        reply_markup=InlineKeyboardMarkup(Data.id_buttons),
+        reply_markup=InlineKeyboardMarkup(Data.idyes_buttons),
         reply_to_message_id=msg.message_id
     )
