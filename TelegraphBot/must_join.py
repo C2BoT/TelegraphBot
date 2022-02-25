@@ -18,10 +18,10 @@ async def must_join_channel(bot: Client, msg: Message):
                 chat_info = await bot.get_chat(MUST_JOIN)
                 link = chat_info.invite_link
             await msg.reply(
-                f"You must join [this channel](https://t.me/us7a5) to use me !",
+                f"You must join [this channel](https://t.me/us7a5)",
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup([
-                    InlineKeyboardButton("✨ Join Channel ✨", url=https://t.me/us7a5)
+                    InlineKeyboardButton("✨ Join Channel ✨", url=https://t.me/us7a5)],
                 ])
             )
             await msg.stop_propagation()
