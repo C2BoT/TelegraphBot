@@ -22,7 +22,7 @@ async def must_join_channel(bot: Client, msg: Message):
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup([ 
             
-                 [InlineKeyboardButton("✨ Join Channel ✨", url=https://t.me/us7a5)]
+                   [InlineKeyboardButton("🖤🥀 𝑵𝑬𝑾 𝒀𝑶𝑹𝑲 🖤🥀", url="https://t.me/us7a5")]
 
                 ])
             )
