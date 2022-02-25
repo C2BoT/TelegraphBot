@@ -82,8 +82,7 @@ class Data:
         ],
         [InlineKeyboardButton("💛💫 𝑺𝑼𝑷𝑷𝑶𝑹𝑻𝑬𝑫 𝑴𝑬𝑫𝑰𝑨 𝑻𝒀𝑷𝑬𝑺 💛💫", callback_data="supported_media_types")],
         [
-            InlineKeyboardButton("𝑯𝑶𝑾 𝑻𝑶 𝑼𝑺𝑬 ❔", callback_data="help"),
-            InlineKeyboardButton("💜🎩 𝑼𝑺𝑬𝑹 𝑰𝑫 💜🎩", callback_data="id"),
+            InlineKeyboardButton("𝑯𝑶𝑾 𝑻𝑶 𝑼𝑺𝑬 ❔", callback_data="id"),
             InlineKeyboardButton("📥 𝑨𝑩𝑶𝑼𝑻 📥", callback_data="about")
         ],
         [InlineKeyboardButton("𝑪𝑳𝑶𝑺𝑬 🔐", callback_data="close")]
