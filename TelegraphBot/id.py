@@ -12,7 +12,6 @@ async def id(bot, update):
         Data.IDUSER,
         quote=True
         
-    )
 
 
 IDUSER = """
