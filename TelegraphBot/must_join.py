@@ -20,8 +20,10 @@ async def must_join_channel(bot: Client, msg: Message):
             await msg.reply(
                 f"You must join [this channel](https://t.me/us7a5)",
                 disable_web_page_preview=True,
-                reply_markup=InlineKeyboardMarkup([
-                    InlineKeyboardButton("✨ Join Channel ✨", url=https://t.me/us7a5)],
+                reply_markup=InlineKeyboardMarkup([ 
+            
+                 [InlineKeyboardButton("✨ Join Channel ✨", url=https://t.me/us7a5)],
+
                 ])
             )
             await msg.stop_propagation()
