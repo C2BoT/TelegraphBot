@@ -25,54 +25,36 @@ class Data:
     ABOUT = """
 **** 
 
-𝑭𝑹𝑨𝑴𝑬𝑾𝑶𝑹𝑲 [𝑷𝒀𝑹𝑶𝑮𝑹𝑨𝑴](docs.pyrogram.org)
+𝙵𝚁𝙰𝙼𝙴𝚆𝙾𝚁𝙺 [𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼](docs.pyrogram.org)
 
-𝑳𝑨𝑵𝑮𝑼𝑨𝑮𝑬 [𝑷𝒀𝑻𝑯𝑶𝑵](www.python.org)
+𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 [𝙿𝚈𝚃𝙷𝙾𝙽](www.python.org)
 
-𝑵𝑬𝑾 𝒀𝑶𝑹𝑲 💚🐺 [𝑵𝑬𝑾 𝒀𝑶𝑹𝑲](https://t.me/us7a5)
-    """
-
-    SUPPORTED_MEDIA_TYPES = """
-💚 **𝑺𝑼𝑷𝑷𝑶𝑹𝑻𝑬𝑫 𝑴𝑬𝑫𝑰𝑨 𝑻𝒀𝑷𝑬𝑺** 💚
-
-① 𝑻𝑴𝑨𝑮𝑬
-② 𝑺𝑻𝑰𝑪𝑲𝑬𝑹
-③ 𝑮𝑰𝑭𝑮 𝑶𝑹 𝑨𝑵𝑰𝑴𝑨𝑻𝑰𝑶𝑵
-④ 𝑽𝑰𝑫𝑬𝑶
-⑤ 𝑽𝑰𝑫𝑬𝑶 𝑵𝑶𝑻𝑬 
-⑥ 𝑫𝑶𝑪𝑼𝑴𝑬𝑵𝑻 (𝑽𝑰𝑫𝑬𝑶/𝑷𝑯𝑶𝑻𝑶/𝑮𝑰𝑭)
-
-
-𝑵𝑶𝑻𝑬 ꨄ 𝑻𝑬𝑳𝑬𝑮𝑹𝑨𝑷𝑯 𝑯𝑨𝑺 𝑨 𝑺𝑰𝒁𝑬 𝑳𝑰𝑴𝑰𝑻 𝑶𝑭 ⑤ 𝑴𝑩
-    """
+𝙽𝙴𝚆 𝚈𝙾𝚁𝙺 ❤️🍓 [𝙽𝙴𝚆 𝚈𝙾𝚁𝙺](https://t.me/us7a5)
 
 
 
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton("🖤🥀 𝑵𝑬𝑾 𝒀𝑶𝑹𝑲 🖤🥀", url="https://t.me/us7a5")],
-        [InlineKeyboardButton("💛💫 𝑺𝑼𝑷𝑷𝑶𝑹𝑻𝑬𝑫 𝑴𝑬𝑫𝑰𝑨 𝑻𝒀𝑷𝑬𝑺 💛💫", callback_data="supported_media_types")],
-        [InlineKeyboardButton("𝑪𝑳𝑶𝑺𝑬 🔐", callback_data="close")],
-        [InlineKeyboardButton(text="🏠 𝑹𝑬𝑻𝑼𝑹𝑵 𝑯𝑶𝑴𝑬 🏠", callback_data="home")],
+        [InlineKeyboardButton("🖤🥀 𝙽𝙴𝚆 𝚈𝙾𝚁𝙺 🖤🥀", url="https://t.me/us7a5")],
+        [InlineKeyboardButton("𝙲𝙻𝙾𝚂𝙴 🔐", callback_data="close")],
+        [InlineKeyboardButton(text="🏠 𝚁𝙴𝚃𝚄𝚁𝙽 𝙷𝙾𝙼𝙴 🏠", callback_data="home")],
     ]
 
     # Rest Buttons
     buttons = [
         [
-            InlineKeyboardButton("🖤🥀 𝑵𝑬𝑾 𝒀𝑶𝑹𝑲 🖤🥀", url="https://t.me/us7a5")
+            InlineKeyboardButton("🖤🥀 𝙽𝙴𝚆 𝚈𝙾𝚁𝙺 🖤🥀", url="https://t.me/us7a5")
         ],
-        [InlineKeyboardButton("💛💫 𝑺𝑼𝑷𝑷𝑶𝑹𝑻𝑬𝑫 𝑴𝑬𝑫𝑰𝑨 𝑻𝒀𝑷𝑬𝑺 💛💫", callback_data="supported_media_types")],
         [
-            InlineKeyboardButton("𝑯𝑶𝑾 𝑻𝑶 𝑼𝑺𝑬 ❔", callback_data="help"),
-            InlineKeyboardButton("📥 𝑨𝑩𝑶𝑼𝑻 📥", callback_data="about")
+            InlineKeyboardButton("💜 𝙰𝙱𝙾𝚄𝚃 💜", callback_data="about")
         ],
-        [InlineKeyboardButton("𝑪𝑳𝑶𝑺𝑬 🔐", callback_data="close")]
+        [InlineKeyboardButton("𝙲𝙻𝙾𝚂𝙴 🔐", callback_data="close")]
     ]
 
     # Supported Media Buttons
     supported_media_buttons = [
-        [InlineKeyboardButton("🖤🥀 𝑵𝑬𝑾 𝒀𝑶𝑹𝑲 🖤🥀", url="https://t.me/us7a5/")],
-        [InlineKeyboardButton("𝑪𝑳𝑶𝑺𝑬 🔐", callback_data="close")],
-        [InlineKeyboardButton(text="🏠 𝑹𝑬𝑻𝑼𝑹𝑵 𝑯𝑶𝑴𝑬 🏠", callback_data="home")]
+        [InlineKeyboardButton("🖤🥀 𝙽𝙴𝚆 𝚈𝙾𝚁𝙺 🖤🥀", url="https://t.me/us7a5/")],
+        [InlineKeyboardButton("𝙲𝙻𝙾𝚂𝙴 🔐", callback_data="close")],
+        [InlineKeyboardButton(text="🏠 𝚁𝙴𝚃𝚄𝚁𝙽 𝙷𝙾𝙼𝙴 🏠", callback_data="home")]
     ]
