@@ -23,7 +23,6 @@ class Data:
 
     # About Message
     ABOUT = """
-**** 
 
 𝙵𝚁𝙰𝙼𝙴𝚆𝙾𝚁𝙺 [𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼](docs.pyrogram.org)
 
@@ -31,7 +30,7 @@ class Data:
 
 𝙽𝙴𝚆 𝚈𝙾𝚁𝙺 ❤️🍓 [𝙽𝙴𝚆 𝚈𝙾𝚁𝙺](https://t.me/us7a5)
 
-
+"""
 
 
     # Home Button
