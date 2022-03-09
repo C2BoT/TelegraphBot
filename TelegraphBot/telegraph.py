@@ -5,8 +5,8 @@ from pyrogram.types import Message
 
 extensions = ["jpg", "jpeg", "png", "gif", "mp4"]
 size_limit = 5242880
-size_error = "Files with size more than 5 MB are not accepted."
-status_text = "Converting and Uploading..."
+size_error = "𝙵𝙸𝙻𝙴𝚂 𝚆𝙸𝚃𝙷 𝚂𝙸𝚉𝙴 𝙼𝙾𝚁𝙴 𝚃𝙷𝙰𝙽 5 𝙼𝙱 𝙰𝚁𝙴 𝙽𝙾𝚃 𝙰𝙲𝙲𝙴𝙿𝚃𝙴𝙳."
+status_text = "𝙲𝙾𝙽𝚅𝙴𝚁𝚃𝙸𝙽𝙶 𝙰𝙽𝙳 𝚄𝙿𝙸𝙾𝙰𝙳𝙸𝙽𝙶—͟͟͞͞𖣘"
 
 
 async def work_to_do(message: Message):
