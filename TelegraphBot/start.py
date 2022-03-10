@@ -19,6 +19,7 @@ async def start(bot, msg):
 async def id(bot, update):
     text = STARTT_TEXT.format(update.from_user.id)
     reply_markup = STARTT_BUTTONS
+    reply_markup = STARTT_CLOSE
     await update.reply_text(
         text=text,
         disable_web_page_preview=True,
@@ -40,4 +41,5 @@ STARTT_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('💛💫 𝙹𝙾𝙸𝙽 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 💛💫', url='https://telegram.me/us7a5')
         ]]
+       [InlineKeyboardButton("𝙲𝙻𝙾𝚂𝙴 🔐", callback_data="close")]
     )
