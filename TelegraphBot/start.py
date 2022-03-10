@@ -37,7 +37,8 @@ STARTT_TEXT = """
 
 STARTT_CLOSE = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton("𝙲𝙻𝙾𝚂𝙴 🔐", callback_data="close")
-        ]]
+        InlineKeyboardButton("𝙲𝙻𝙾𝚂𝙴 🔐", callback_data="close"),
+        [[
+        InlineKeyboardButton("🖤🥀 𝙽𝙴𝚆 𝚈𝙾𝚁𝙺 🖤🥀", url="https://t.me/us7a5/")
         ]]
     )
