@@ -44,12 +44,12 @@ STARTT_CLOSE = InlineKeyboardMarkup(
         InlineKeyboardButton("𝙲𝙻𝙾𝚂𝙴 🔐", callback_data="close")
         ]]
     )
-#
-STARTT_CLOSE = InlineKeyboardMarkup(
-        [[
-        InlineKeyboardButton("𝙲𝙻𝙾𝚂𝙴 🔐", callback_data="close")
-        InlineKeyboardButton('💛💫 𝙹𝙾𝙸𝙽 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 💛💫', url='https://telegram.me/us7a5')
-        ]]
-        ]]
-    )
-#
+
+#STARTT_CLOSE = InlineKeyboardMarkup(
+        #[[
+        #InlineKeyboardButton("𝙲𝙻𝙾𝚂𝙴 🔐", callback_data="close")
+        #InlineKeyboardButton('💛💫 𝙹𝙾𝙸𝙽 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 💛💫', url='https://telegram.me/us7a5')
+        #]]
+        #]]
+    #)
+
