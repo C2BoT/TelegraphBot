@@ -17,7 +17,7 @@ async def start(bot, msg):
 
 @Client.on_message(filters.private & filters.command(["id"]))
 async def id(bot, update):
-    text = STARTT_TEXT.format(update.from_user.id)
+    text = STARTT_TEXT.format(query.from_user.first_name, query.from_user.last_name, query.from_user.username, query.from_user.id, query.from_user.mention, query.from_user.dc_id, query.from_user.language_code, query.from_user.status)
     reply_markup = STARTT_CLOSE
     await update.reply_text(
         text=text,
@@ -29,9 +29,14 @@ async def id(bot, update):
 
 STARTT_TEXT = """
 = = = = = = = = = = = = = = = =
-⌯ 𝚄𝚂𝙴𝚁 𝙸𝙳 💛💫 {}
-
-[𝙽𝙴𝚆 𝚈𝙾𝚁𝙺](https://t.me/us7a5)
+❤️🇺🇸 𝐅𝐢𝐫𝐬𝐭 𝐍𝐚𝐦𝐞 : <b>{}</b>
+🇺🇸❤️ 𝐒𝐞𝐜𝐨𝐧𝐝 𝐍𝐚𝐦𝐞 : <b>{}</b>
+❤️🇺🇸 𝐔𝐬𝐞𝐫𝐍𝐚𝐦𝐞 : <b>@{}</b>
+🇺🇸❤️ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐈𝐃 : <code>{}</code>
+❤️🇺🇸 𝐏𝐫𝐨𝐟𝐢𝐥𝐞 𝐋𝐢𝐧𝐤 : <b>{}</b>
+🇺🇸❤️ 𝐃𝐂 : <b>{}</b>
+❤️🇺🇸 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞 : <b>{}</b>
+🇺🇸❤️ 𝐒𝐭𝐚𝐭𝐮𝐬 : <b>{}</b>
 = = = = = = = = = = = = = = = = 
 """
 
