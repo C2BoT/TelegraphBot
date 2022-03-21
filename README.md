@@ -13,6 +13,7 @@ Telegram bot to upload media to telegra.ph
 ### Deploy to Heroku
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Bottom-T/TelegraphBot)
+<a href="https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FBottom-T%2FTelegraphBot&envs=API_HASH%2CAPI_ID%2CBOT_TOKEN%2CMUST_JOIN%2COWNER_ID"><img src="https://img.shields.io/badge/Deploy%20To%20Railway-purple?style=for-the-badge&logo=railway" width="300"/></a></p>
 
 1. Tap on above button and fill `API_ID`, `API_HASH`, `BOT_TOKEN`.
 2. Then tap "Deploy App" below it. Wait till deploying is complete (will take atmost 2 minutes).
