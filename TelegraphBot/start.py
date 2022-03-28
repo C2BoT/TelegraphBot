@@ -8,10 +8,10 @@ from pyrogram.errors import UserNotParticipant
 force_channel = "us7a5"
 
 @Client.on_message(filters.command("start"))
-async def start_cmd(bot, msg):
+async def start_cmd(bot, message):
     if force_channel:
         try:
-            user = await bot.get_chat_member(force_channel, msg.from_user.id)
+            user = await bot.get_chat_member(force_channel, message.from_user.id)
             if user.status == "kicked out":
                 return
         except UserNotParticipant:
@@ -24,5 +24,12 @@ async def start_cmd(bot, msg):
             )
             return
 
-
-    await msg.reply_text("Sent message")
+@Client.on_message(filters.private & filters.incoming & filters.command("start"))
+async def start(bot, msg):
+user = await bot.get_me()
+ mention = user["mention"]
+ await bot.send_message(
+  msg.chat.id,
+  Data.START.format(msg.from_user.mention, mention),
+  reply_markup=InlineKeyboardMarkup(Data.buttons),
+  reply_to_message_id=msg.message_id
