@@ -7,7 +7,7 @@ from pyrogram.errors import UserNotParticipant
 
 force_channel = "us7a5"
 
-@Client.on_message(filters.private & filters.incoming & filters.command("start"))
+@bot.on_message(filters.command("start"))
 async def start(bot, msg):
     if force_channel:
         try:
@@ -23,7 +23,7 @@ async def start(bot, msg):
                 )
             )
             return
-
+@Client.on_message(filters.private & filters.incoming & filters.command("start"))
 	user = await bot.get_me()
 	mention = user["mention"]
 	await bot.send_message(
