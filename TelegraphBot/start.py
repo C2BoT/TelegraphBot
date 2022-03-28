@@ -23,9 +23,6 @@ async def start(bot, msg):
                 )
             )
             return
-
-@Client.on_message(filters.private & filters.incoming & filters.command("start"))
-async def start(bot, msg):
 	user = await bot.get_me()
 	mention = user["mention"]
 	await bot.send_message(
@@ -33,30 +30,3 @@ async def start(bot, msg):
 		Data.START.format(msg.from_user.mention, mention),
 		reply_markup=InlineKeyboardMarkup(Data.buttons),
 		reply_to_message_id=msg.message_id
-	)
-
-@Client.on_message(filters.private & filters.command(["id"]))
-async def id(bot, update):
-    text = STARTT_TEXT.format(update.from_user.id)
-    reply_markup = STARTT_CLOSE
-    await update.reply_text(
-        text=text,
-        disable_web_page_preview=True,
-        reply_markup=reply_markup,
-        quote=True
-    )
-
-
-STARTT_TEXT = """
-= = = = = = = = = = = = = = = =
-⌯ 𝚄𝚂𝙴𝚁 𝙸𝙳 💛💫 {}
-
-⌯ [𝙽𝙴𝚆 𝚈𝙾𝚁𝙺](https://t.me/us7a5)
-= = = = = = = = = = = = = = = = 
-"""
-
-STARTT_CLOSE = InlineKeyboardMarkup(
-        [[
-        InlineKeyboardButton("𝙲𝙻𝙾𝚂𝙴 🔐", callback_data="close")
-        ]]
-    )
